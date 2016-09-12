@@ -1,6 +1,9 @@
 {
-    "name": "codemirror",
-    "version":"5.18.0",
+    "name": "@qlik/codemirror",
+    "version":"5.18.0-qlik.1",
+    "publishConfig": {
+      "registry": "https://qliktech.artifactoryonline.com/qliktech/api/npm/npm-local/"
+    },
     "main": "lib/codemirror.js",
     "description": "Full-featured in-browser code editor",
     "license": "MIT",
@@ -18,8 +21,10 @@
     "maintainers":[{"name": "Marijn Haverbeke",
                     "email": "marijnh@gmail.com",
                     "web": "http://marijnhaverbeke.nl"}],
-    "repository": {"type": "git",
-                   "url": "https://github.com/codemirror/CodeMirror.git"},
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/qlik-trial/CodeMirror.git"
+    },
     "jspm": {
       "directories": {},
       "dependencies": {},
